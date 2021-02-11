@@ -1,0 +1,77 @@
+<html>
+    <head>
+        <style>
+            body {margin:0px; padding:0px}
+            .main{margin-left:auto;margin-right:auto;width:1200px;}
+            h1 { color:#00047A; text-align:center; padding-top:1px; font-size: 40px;}
+            h2 {text-align: center; color: #820482; font-family: Comic Sans MS, Comic Sans, sans-serif; padding-bottom: 2px; padding-top: 10px;}
+            h2 span {text-decoration: underline double 2px; font-size: 25px;}
+            #navbar {background-color:#faebd6; margin: 0px; padding: 0px; display: flex;}
+            #navbar a {font-weight: 500; font-size: 24px; color:blue; text-decoration: none; padding: 10px 10px; font-family: Arial, Helvetica, sans-serif;}
+            #navbar a:visited {color: purple; background-color: transparent;}
+            #navbar a#first {padding-left: 90px;}
+            #viewholder {padding-top: 40px;}
+            #view {background-attachment:fixed; background-position: center;  background-repeat: no-repeat; background-size:cover; background-image: url('View.jpg'); width: 1000px; height: 650px; display: flex; justify-content: center; align-items: center;}
+            /* #view div {} */
+            #view div h2 {color: whitesmoke; font-size: 60px; padding-left:60px; padding-top: 0px; margin-top: -40px;}
+            #view div span button{ border: 3px double black; color: black; background-color: white; margin-left: 600px; width: 200px; height: 40px; font-size: 15px; }
+            .left-card {overflow: hidden;}
+            .left-card img {margin-left: 95px; float: left; display: block; border: 13px solid #ffe6ee; width: 480px; height: 350px;}
+            .left-card h3 {color:blue; padding-left: 660px; padding-top: 130px; font-size: 20px; margin: 0px; padding-bottom: 0px;}
+            .left-card p {padding-left: 660px; font-size: 20px; margin: 0px;}
+            .right-card {overflow: hidden; padding-top: 55px; padding-bottom: 55px;}
+            .right-card img {margin-right: 95px; float: right; display: block; border: 13px solid #cbe8f2; width: 480px; height: 350px;}
+            .right-card h3 {color:blue; padding-left: 95px; padding-top: 130px; font-size: 20px; padding-bottom: 0px; margin: 0px}
+            .right-card p {padding-left: 95px; font-size: 20px; margin: 0px}
+        </style>
+    </head>
+    <body>
+        <div class="main">
+            <h1>Trojan Café</h1>
+        
+        <div id="navbar" width=100%>
+            <a class = 'active' href = '#home' id="first">Home</a> 
+            <a  href = '#italian'>Italian</a> 
+            <a  href = '#indian'>Indian</a> 
+            <a  href = '#japanese'>Japanese</a> 
+            <a  href = '#desserts'>Desserts</a> 
+            <a  href = 'welcome.html' target="_blank">About</a> 
+            <a  href = 'welcome.html' target="_blank">Contact</a> 
+        </div>
+        <div id="viewholder">
+            <center>
+                <div id=view>
+                    <div>
+                        <h2> Enjoy the Scenic View!! </h2>
+                        <span> <button> Book Your Reservation </button> </span>
+                    </div>
+                </div>
+            </center>
+        </div>
+        <h2> <span> Explore Our Delicious Cuisines </span> </h2>
+    
+        <div class="left-card" id="italian">
+            <img src = "italy.jpg" width = "370" height = "360" />
+            <h3>Italy's Finest:</h3>
+            <p> From our Lasagna to our Protein Penne, we <br>
+                have delicious options for every taste! </p>
+        </div>
+        <div class="right-card" id="indian">
+            <img src = "indian.jpg" width = "370" height = "360" />
+            <h3> India's Flavors: </h3>
+            <p> Our dishes are blended with masterful <br>
+            savory spices </p>
+        </div>
+        <div class="left-card" id="japanese">
+            <img src = "japanese.jpg" width = "370" height = "360" />
+            <h3> Japanese Cuisine: </h3>
+            <p> Delicious dining option from Sake to Sushi </p>
+        </div>
+        <div class="right-card" id="desserts">
+            <img src = "desserts.jpg" width = "370" height = "360" />
+            <h3> Desserts: </h3>
+            <p> From Italian Tiramisu to Indian Gulab Jamun </p>
+        </div>
+    </div>
+    </body>
+</html>
